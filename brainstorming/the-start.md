@@ -1,6 +1,16 @@
-# Appli coaching cuisine
+# CUI - Application de coaching de cuisine
 
+-
 
+### MVP
+
+Le Produit Minimal doit se composer de:
+
+1. une liste de recettes
+2. une liste des ingredients (pour chaque recette)
+2. un player de recette (avec fonctions de _rewind_, _play_  _pause_ et _forward_) 
+
+----
 
 ### 1/ Idées :  
 
@@ -87,12 +97,23 @@ tablette
 Faire du responsive plutôt que du distributed design  / progressive webapp
 
 ### 4/ HEBERGEMENT :
+
+Au debut, locale ? Probleme pour setter le meme environnement sur differentes machines (et different SO -> OSX, WIN, UBUNTU)
+
+#### One.com
+
 One.com PRO : 100 GO, 2.22 euros HT par mois, 1 GO RAM, un seul domaine, 2 CPU, SSL, SSH
 One.com affaires : 500 GO, 5.25 euros HT par mois, 4 GO RAM, un seul domaine, 8 CPU, SSL, SSH
+
+#### OVH
 
 OVH perso : 100 GO, nom de domaine offert, 2.99 euros HT par mois
 OVH pro : 250 GO, nom de domaine offert, 5,99 euros HT par mois
 OVH performance : 500 GO, nom de domaine offert, 9,99 euros HT par mois
+
+OVH VPS SSD : <https://www.ovh.com/fr/vps/vps-ssd.xml>  à partir de 2,99 euros HT par mois
+
+#### HOSTPAPA
 
 HOSTPAPA NOVICE : 100 GO, 2.95euros par mois, bande passante illimitée
 
@@ -100,6 +121,7 @@ HOSTPAPA AFFAIRE : illimité, 2.95e/mois
  
 
 ### 5/ CONCEPTION ET PRODUCTION DES CONTENUS :
+
 Textes (recettes, explications, liste)
 Photos (prise par les internautes)
 image vectoriel (svg)
@@ -107,11 +129,14 @@ vidéos (pro)
 
 
 ### 6/ COMMENT PARTAGER NOTRE CODE
-GITHUB (Sanswell, gmorelli, maevaCha)
-GMAIL
 
-### 7/CONCURRENTS :
-MARMITON : 
+* GITHUB -> cuiteam (Sanswell, gmorelli, maevaCha)
+* GMAIL
+* SLACK
+
+### 7/ CONCURRENTS :
+
+#### MARMITON : 
 appli mobile + web
 http://www.marmiton.org/
 Proposition d’apprendre (vidéos) par niveau (débutant, moyen, presque pro)
@@ -119,7 +144,6 @@ Proposition d’apprendre (vidéos) par niveau (débutant, moyen, presque pro)
 
 Moteur de recherce : par mots, par tendance, par ingrédients
 Sur mobile : liste de course (problème pas de calcul des ingrédients), possibilité de prendre en photo, technique culinaire en vidéo associé à chaque recette, historique des recettes, possibilité de commenter les recettes, sélection de recette pour les infants, cout des recettes, niveau de difficulté, votes, durée de préparation et cuisson
-
 
 
 ### 8/ NOS PLUS :
